@@ -1,0 +1,9 @@
+appName: nginx
+image: nginx:1.25
+replicas: 2
+
+cpuRequest: "100m"
+cpuLimit: "500m"
+
+memoryRequest: "128Mi"
+memoryLimit: "512Mi"
